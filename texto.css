@@ -1,0 +1,30 @@
+h1, h2, h3, p{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    font-size: 2.2rem;
+    color: brown;
+    text-shadow: 10px 10px 5px black;
+}
+h2, h3{
+    text-align: center;
+    width: 100%;
+}
+p{text-align: justify;}
+a{text-decoration  :none; color: aqua; color: black;}
+#zap:hover, #insta:hover, #git:hover, #mail:hover{
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+    transition: 10px;
+}
+#zap:hover{background-image: linear-gradient(to right,green,orange);}
+#insta:hover{background-image: linear-gradient(45deg,purple, lime);}
+#git:hover{color:bisque;background-color: blue;}
+#mail:hover{background-color: brown;}
+#rei{
+    width: 100px;
+}
